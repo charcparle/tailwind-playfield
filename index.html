@@ -30,6 +30,29 @@
           class="hidden md:block px-6 py-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hover:text-darkGrayishBlue"
           >getStarted</a
         >
+        <!-- Hamburger icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline:none"
+        >
+          <!-- Use CSS to create the icon -->
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden border-2 h-full bg-red-900">
+        <div
+          id="menu"
+          class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Opportunity</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Work</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
+          <a href="#" class="hover:text-darkGrayishBlue">History</a>
+        </div>
       </div>
     </nav>
     <!-- Hero section -->
@@ -257,9 +280,9 @@
         <div
           class="border-2 flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
         >
-            <div class="mx-auto my-6 text-center text-white md:hidden">
-                Copyright &copy; 2022, All Rights Reserved
-            </div>
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
           <!-- Logo -->
           <div>
             <img src="img/logo-white.svg" alt="" class="h-8" />
@@ -320,7 +343,7 @@
             </div>
           </form>
           <div class="hidden text-white md:block">
-              Copyright &copy; 2022, All Rights Reserved
+            Copyright &copy; 2022, All Rights Reserved
           </div>
         </div>
       </div>
